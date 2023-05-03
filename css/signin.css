@@ -1,0 +1,746 @@
+/* Business Signup Page Starts */
+.business-form {
+  box-shadow: none !important;
+  border: none;
+
+  width: 41vw !important;
+}
+
+.business-left {
+  border-top-right-radius: 0 !important;
+  border-left: none !important;
+
+  border-bottom-right-radius: 0 !important;
+}
+.business-right {
+  background-color: var(--business-bg) !important;
+  border-left: none !important;
+  padding-top: 90px !important;
+  margin-left: -1px;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+.main-business {
+  align-items: stretch !important;
+}
+
+.label-input {
+  text-align: left;
+}
+.label-input input {
+  margin-top: 5px;
+}
+.label-input label {
+  font-weight: 600;
+  text-align: left;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: var(--icon-color);
+}
+
+.label-input .select-wrap {
+  margin-top: 5px;
+  width: 100%;
+}
+.label-input .nav-drop {
+  z-index: 1;
+}
+.green {
+  color: var(--green) !important;
+  font-weight: bold;
+}
+
+.otp-text.privacy {
+  max-width: 354px;
+  margin-top: 5px !important;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+
+  text-align: center;
+
+  color: #0f172a;
+}
+
+.bs-btn {
+  margin-top: -5px !important;
+}
+
+.exist-account {
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 25px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.exist-account a {
+  color: #636b85;
+}
+.exist-account a:hover {
+  transition: all 0.3s ease;
+  color: var(--icon-light);
+}
+
+.get-busniness {
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 35px;
+  text-align: center;
+
+  color: var(--green);
+}
+
+.get-desc {
+  margin-top: 15px;
+
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+
+  color: var(--icon-color);
+}
+
+.start-box {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+.indiv-start {
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 35px;
+
+  width: 375px;
+  margin: 0 auto;
+  height: 95px;
+
+  background: var(--white);
+
+  border: 1px solid var(--green);
+  border-radius: 15px;
+}
+.abs-start {
+  position: absolute;
+  left: -35px;
+}
+.abs-head {
+  font-size: 15px;
+  font-weight: 600;
+
+  margin-bottom: 5px;
+}
+.get-text {
+  font-weight: 400;
+  font-size: 14px;
+
+  display: flex;
+  align-items: center;
+  text-align: left;
+
+  color: #373d4f;
+}
+.alter-abs {
+  right: -35px !important;
+  left: auto;
+}
+@media (min-width: 1500px) {
+  .indiv-start {
+    width: 370px;
+  }
+}
+@media (max-width: 1170px) {
+  .business-form {
+    width: 46vw !important;
+  }
+}
+@media (max-width: 1040px) {
+  .business-form {
+    width: 47.5vw !important;
+  }
+  .sign-phone-form {
+    padding: 50px 35px !important;
+  }
+}
+
+@media (max-width: 940px) {
+  .main-signIn {
+    flex-direction: column-reverse;
+  }
+  .business-form {
+    width: 95vw !important;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  .indiv-start {
+    width: 100%;
+  }
+  .business-detail {
+    margin-top: 30px;
+  }
+  .right-buse {
+    margin-top: 0;
+  }
+
+  .start-box {
+    margin-top: 40px;
+  }
+  .business-right {
+    border-radius: 30px 30px 0 0 !important;
+  }
+  .sign-phone-form {
+    padding: 50px 75px !important;
+  }
+  .business-left {
+    border-radius: 0px 0px 30px 30px !important;
+    margin-top: -5px;
+    padding-top: 0 !important;
+  }
+}
+@media (max-width: 580px) {
+  .business-form {
+    width: 100% !important;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  .sign-phone-form {
+  }
+  .business-left {
+    padding: 50px 14px !important;
+    margin-top: -8px;
+    border-radius: 0px !important;
+  }
+  .business-right {
+    padding: 50px 45px !important;
+    border-radius: 0 !important;
+  }
+}
+.link-back {
+  color: var(--icon-color);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.back-bt {
+  position: absolute;
+  left: 28px;
+  top: 22px;
+}
+
+.sign-phone-form {
+  position: relative;
+}
+
+.otp-input {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+}
+
+.single-numer {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  border: 1px solid var(--input-border);
+  color: var(--icon-color);
+  font-weight: 600;
+  font-size: 16px;
+  width: 55.5px;
+  height: 48px;
+
+  padding: 5px 15px;
+  text-align: center;
+
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.otp-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  margin-bottom: 8px;
+  color: var(--icon-color);
+}
+
+.que {
+  font-weight: 500;
+  font-size: 14px;
+  transition: all 0.2s ease;
+  text-align: center;
+  color: var(--green);
+}
+.que:hover {
+  transition: all 0.2s ease;
+  color: var(--green-hover);
+}
+.que:active {
+  transition: all 0.2s ease;
+  color: var(--green-active);
+}
+
+@media (max-width: 580px) {
+  .otp-form {
+    height: 100vh;
+    box-sizing: border-box;
+    padding-top: 70px !important;
+    overflow: hidden;
+  }
+  .desk {
+    display: none;
+  }
+  .main-otp {
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+}
+.main-signIn {
+  background-image: url(../img/signin.png);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding: 32px 0;
+  justify-content: center;
+}
+.sign-phone-form {
+  text-align: center;
+  padding: 60px 60px;
+  box-sizing: border-box;
+  width: 37vw;
+  background: var(--white);
+  box-shadow: 0px 2px 12px rgba(9, 10, 11, 0.28);
+  border-radius: 30px;
+}
+.main-form {
+  margin-top: 20px;
+}
+.sign-heading {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 40px;
+
+  text-align: center;
+
+  color: #373d4f;
+}
+
+.sign-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 30px;
+}
+.phone-input .phone {
+  width: 100%;
+  border: 1px solid var(--input-border);
+  padding-left: 20px;
+  border-left: none;
+  border-radius: 0px 6px 6px 0;
+  font-size: 15px;
+}
+.form-field {
+  width: 100%;
+  border: 1px solid var(--input-border);
+  padding-left: 20px;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+.form-field::placeholder,
+.phone-input .phone::placeholder {
+  color: var(--input-border);
+}
+.phone-input {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.phone-input .select-wrap .Dropdown-control {
+  width: 105px;
+
+  height: 40px;
+
+  background: #f9fcff !important;
+  padding: 8px 5px 8px 10px;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.phone-input .nav-drop {
+  right: 5px;
+  z-index: 0;
+}
+.phone-input .Dropdown-placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+
+  color: var(--text-color);
+}
+.phone-input .select-wrap {
+  width: auto;
+}
+.sign-btn button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 44px;
+  transition: all 0.2s ease;
+
+  height: 46px;
+  width: 100%;
+
+  background: var(--green);
+  border-radius: 6px;
+
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  border: 1px solid var(--green);
+  color: #ffffff;
+}
+.alter-btn button {
+  background-color: var(--white);
+  transition: all 0.2s ease;
+  color: var(--green);
+}
+.alter-btn button:hover {
+  border: 1px solid var(--green-hover);
+  transition: all 0.2s ease;
+  background-color: var(--white) !important;
+  color: var(--green-hover);
+}
+.sign-btn button:hover {
+  transition: all 0.2s ease;
+  background-color: var(--green-hover);
+  border: 1px solid var(--green-hover);
+}
+.alter-btn button:active {
+  border: 1px solid var(--green-active);
+  transition: all 0.2s ease;
+  background-color: var(--white) !important;
+  color: var(--green-active);
+}
+.sign-btn button:active {
+  transition: all 0.2s ease;
+  background-color: var(--green-active);
+  border: 1px solid var(--green-active);
+}
+.form-divider {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 45px 0;
+}
+.divider-line {
+  border-top: 1px solid var(--input-border);
+  width: 60%;
+}
+
+.divider-text {
+  width: 40%;
+
+  font-family: var(--font2);
+
+  font-weight: 500;
+  font-size: 14px;
+
+  text-align: center;
+
+  color: #464646;
+}
+
+@media (max-width: 1220px) {
+  .sign-phone-form {
+    width: 48vw;
+  }
+}
+@media (max-width: 1024px) {
+  .sign-phone-form {
+    width: 60vw;
+  }
+}
+@media (max-width: 768px) {
+  .sign-phone-form {
+    width: 80vw;
+  }
+}
+@media (max-width: 580px) {
+  .sign-phone-form {
+    width: 100%;
+  }
+  .phone-input .Dropdown-placeholder {
+    font-size: 14px;
+  }
+  .phone-input .select-wrap .Dropdown-control {
+    width: 94px;
+  }
+  .sign-phone-form {
+    padding: 40px 30px;
+    border-radius: 0;
+  }
+  .main-signIn {
+    padding: 0;
+  }
+  .phone-input .select-wrap .Dropdown-control {
+    box-sizing: border-box;
+  }
+  .phone-input .phone {
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
+  }
+  .phone-input {
+    align-items: center;
+  }
+}
+.main-signIn {
+  background-image: url(../img/signin.png);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding: 32px 0;
+  justify-content: center;
+}
+.sign-phone-form {
+  text-align: center;
+  padding: 60px 60px;
+  box-sizing: border-box;
+  width: 37vw;
+  background: var(--white);
+  box-shadow: 0px 2px 12px rgba(9, 10, 11, 0.28);
+  border-radius: 30px;
+}
+.main-form {
+  margin-top: 20px;
+}
+.sign-heading {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 40px;
+
+  text-align: center;
+
+  color: #373d4f;
+}
+
+.sign-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 30px;
+}
+.phone-input .phone {
+  width: 100%;
+  border: 1px solid var(--input-border);
+  padding-left: 20px;
+  border-left: none;
+  border-radius: 0px 6px 6px 0;
+  font-size: 15px;
+}
+.form-field {
+  width: 100%;
+  border: 1px solid var(--input-border);
+  padding-left: 20px;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+.form-field::placeholder,
+.phone-input .phone::placeholder {
+  color: var(--input-border);
+}
+.phone-input {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.phone-input .select-wrap .Dropdown-control {
+  width: 105px;
+
+  height: 40px;
+
+  background: #f9fcff !important;
+  padding: 8px 5px 8px 10px;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.phone-input .nav-drop {
+  right: 5px;
+  z-index: 0;
+}
+.phone-input .Dropdown-placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+
+  color: var(--text-color);
+}
+.phone-input .select-wrap {
+  width: auto;
+}
+.sign-btn button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 44px;
+  transition: all 0.2s ease;
+
+  height: 46px;
+  width: 100%;
+
+  background: var(--green);
+  border-radius: 6px;
+
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  border: 1px solid var(--green);
+  color: #ffffff;
+}
+.alter-btn button {
+  background-color: var(--white);
+  transition: all 0.2s ease;
+  color: var(--green);
+}
+.alter-btn button:hover {
+  border: 1px solid var(--green-hover);
+  transition: all 0.2s ease;
+  background-color: var(--white) !important;
+  color: var(--green-hover);
+}
+.sign-btn button:hover {
+  transition: all 0.2s ease;
+  background-color: var(--green-hover);
+  border: 1px solid var(--green-hover);
+}
+.alter-btn button:active {
+  border: 1px solid var(--green-active);
+  transition: all 0.2s ease;
+  background-color: var(--white) !important;
+  color: var(--green-active);
+}
+.sign-btn button:active {
+  transition: all 0.2s ease;
+  background-color: var(--green-active);
+  border: 1px solid var(--green-active);
+}
+.form-divider {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 45px 0;
+}
+.divider-line {
+  border-top: 1px solid var(--input-border);
+  width: 60%;
+}
+
+.divider-text {
+  width: 40%;
+
+  font-family: var(--font2);
+
+  font-weight: 500;
+  font-size: 14px;
+
+  text-align: center;
+
+  color: #464646;
+}
+
+.new-drop {
+  width: 100% !important;
+}
+@media (max-width: 1220px) {
+  .sign-phone-form {
+    width: 48vw;
+  }
+}
+@media (max-width: 1024px) {
+  .sign-phone-form {
+    width: 60vw;
+  }
+}
+@media (max-width: 768px) {
+  .sign-phone-form {
+    width: 80vw;
+  }
+}
+@media (max-width: 580px) {
+  .sign-phone-form {
+    width: 100%;
+  }
+  .phone-input .Dropdown-placeholder {
+    font-size: 14px;
+  }
+  .phone-input .select-wrap .Dropdown-control {
+    width: 94px;
+  }
+  .sign-phone-form {
+    padding: 40px 30px;
+    border-radius: 0;
+  }
+  .main-signIn {
+    padding: 0;
+  }
+  .phone-input .select-wrap .Dropdown-control {
+    box-sizing: border-box;
+  }
+  .phone-input .phone {
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
+  }
+  .phone-input {
+    align-items: center;
+  }
+}
+
+/* Business Signup Page Ends */

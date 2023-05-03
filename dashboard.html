@@ -1,0 +1,113 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PickGo</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="./css/custom.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://a-dotdevelopers.web.app/css/style.css"
+    />
+   
+    <script
+      src="https://kit.fontawesome.com/6fd519cc43.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/dashboard.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="dashboard-main">
+      <div class="dashboard-links">
+        <div class="container-width inner-dash">
+          <a href="">Payment</a>
+          <a href="">Balances</a>
+          <a href="">Customers</a>
+        </div>
+      </div>
+      <div class="graph-area container-width">
+        <div class="day-heading">
+          <h1>Today</h1>
+        </div>
+        <div class="chart-flex">
+          <div class="chart-data">
+            <div class="chart-drop">
+              <div class="gross">
+                <p>Gross volume <i class="fa-solid fa-chevron-down"></i></p>
+                <h3>$0.00</h3>
+                <p class="time">12:12AM</p>
+              </div>
+              <div class="gross">
+                <p>Yesterday <i class="fa-solid fa-chevron-down"></i></p>
+                <h3>$0.00</h3>
+              </div>
+            </div>
+          <div class="container">
+      <!-- single canvas node to render the chart -->
+      <canvas
+        id="myChart"
+      class="cNAS"
+        aria-label="chart"
+        role="img"
+      ></canvas>
+    </div>
+           
+          </div>
+          <div class="chart-content">
+            <div class="chart-drop drop-contetn">
+              <div class="gross flex-gross bottom-border">
+                <div>
+                  <p>USD Balance</p>
+                  <h3>$0.00</h3>
+                  <p class="time">Available to pay out</p>
+                </div>
+                <a href="">View</a>
+              </div>
+              <div class="gross flex-gross">
+                <div>
+                  <p>Payouts</p>
+                  <h3>$88.56</h3>
+                  <p class="time">Deposited Mar 21</p>
+                </div>
+
+                <a href="">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gift-price bottom-border">
+<div class="price-flex ">
+      <h2>E-Gift: $0.00</h2>
+      <h2>Online: $0.00</h2>
+      <h2>In person: $0.00</h2>
+      <h2>Cash: $0.00</h2>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+   <script src="./js/chart.js" ></script> 
+  <script src="./js/custom.js"></script>
+  
+</html>

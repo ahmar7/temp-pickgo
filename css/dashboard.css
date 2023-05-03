@@ -1,0 +1,109 @@
+.dashboard-links {
+  border-bottom: 1px solid lightgray;
+  padding: 15px 0;
+}
+
+.inner-dash a {
+  color: black;
+  font-weight: bold;
+}
+.inner-dash {
+  display: flex;
+  gap: 20px;
+}
+.graph-area {
+  margin-top: 40px;
+}
+.day-heading h1 {
+  text-align: left;
+}
+.day-heading {
+  padding: 10px 0;
+  border-bottom: 1px solid lightgray;
+}
+.chart-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 30px;
+  box-sizing: border-box;
+}
+.chart-data {
+  text-align: left;
+  width: 75%;
+}
+.chart-content {
+  width: 25%;
+}
+
+.gross p i {
+  margin-left: 10px;
+}
+.gross h3 {
+  margin: 5px 0;
+  color: rgb(54, 54, 54);
+  font-weight: 500;
+}
+.chart-drop {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  margin-bottom: 10px;
+}
+#myChart {
+  /* margin-left: -50px; */
+}
+.drop-contetn {
+  flex-direction: column;
+  text-align: left;
+  gap: 0px;
+}
+.drop-contetn a {
+  color: royalblue;
+}
+.flex-gross {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-border {
+  border-bottom: 1px solid lightgray;
+  /* padding: 10px 0; */
+}
+.gift-price {
+  padding: 20px 0;
+}
+.price-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.cNAS {
+  width: max-content;
+  height: 200px;
+}
+.price-flex h2 {
+  font-weight: 500;
+}
+@media (max-width: 900px) {
+  .price-flex {
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .price-flex h2 {
+    font-size: 18px;
+  }
+  .chart-flex {
+    flex-direction: column;
+  }
+  .chart-data {
+    width: 100%;
+  }
+  #myChart {
+    width: 100%;
+  }
+  .chart-content {
+    width: 100%;
+  }
+}
